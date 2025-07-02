@@ -43,7 +43,7 @@ CryoCell_Reminder/
 
 1. 安装 Python 3.x
 2. 安装依赖（仅 `tkinter`, `schedule`，一般已内置）
-3. 双击或运行 `CryoCell_Reminder_v5.1_fixedpath.py`
+3. 双击或运行 `CryoCell_Reminder_v5.0.py`
 
 ### ✅ 方法二：使用已打包 `.exe` 版本（推荐）
 
@@ -77,7 +77,7 @@ pip install pyinstaller
 打包命令：
 
 ```bash
-pyinstaller --onefile --windowed --icon=ice_cube_icon.ico CryoCell_Reminder_v5.1_fixedpath.py
+pyinstaller --onefile --windowed --icon=cryo_cell_frozen.ico CryoCell_Reminder_v5.0.py
 ```
 
 输出文件：`dist/CryoCell_Reminder_v5.1_fixedpath.exe`
@@ -108,4 +108,4 @@ MIT License. 本项目完全开源，欢迎用于学习、科研和个人使用�
 
 ## 🙌 致谢
 
-本项目由 ChatGPT + 科研需求共同打磨，如你觉得有帮助欢迎 🌟 Star 本项目并分享给其他实验室同仁！
+本项目由 威震八方@ZJU + ChatGPT + Deepseek共同打磨，如你觉得有帮助欢迎 🌟 Star 本项目并分享给其他实验室同仁！
