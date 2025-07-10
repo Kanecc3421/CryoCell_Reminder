@@ -17,17 +17,11 @@
 
 ---
 
-## 🖥️ 软件界面
-
-![界面截图](screenshot.png) *(如需添加，请使用实际运行截图)*
-
----
-
 ## 📂 项目结构
 
 ```
 CryoCell_Reminder/
-├── CryoCell_Reminder_v5.1_fixedpath.py     # 主程序（已支持路径修复）
+├── CryoCell_Reminder_v5.0.py     # 主程序（已支持路径修复）
 ├── cell_freeze.db                          # 示例数据库（运行后自动生成）
 ├── email_config.json                       # 邮箱配置文件（运行后设置生成）
 ├── ice_cube_icon.ico                       # 程序图标（小冰块 ❄️）
@@ -48,19 +42,14 @@ CryoCell_Reminder/
 ### ✅ 方法二：使用已打包 `.exe` 版本（推荐）
 
 1. 下载 `CryoCell_Reminder.exe`
-2. 与以下文件放在同一目录：
-
-   * `cell_freeze.db`
-   * `email_config.json`
-3. 双击 `.exe` 启动应用
+2. 双击 `.exe` 启动应用
 
 ---
 
 ## ✉️ 邮件配置说明
 
-1. 第一次运行程序会弹出配置窗口：填写发件人邮箱、收件人、密码
-2. SMTP 服务器默认为 `smtp.zju.edu.cn:994`（可根据需求修改）
-3. 支持测试发送功能
+1. 第一次运行程序会弹出配置窗口：填写发件人邮箱、收件人、密码 (！！！请注意这里的密码不是你注册时候用到的密码，而是例如SMTP代理时分发到的密码，可以去邮箱设置里面查看！！！有问题及时联系作者！！！)
+2. 支持测试发送功能
 
 ⚠️ 密码仅保存在本地 `email_config.json`，建议使用邮件服务提供的“授权码”。
 
@@ -80,7 +69,7 @@ pip install pyinstaller
 pyinstaller --onefile --windowed --icon=cryo_cell_frozen.ico CryoCell_Reminder_v5.0.py
 ```
 
-输出文件：`dist/CryoCell_Reminder_v5.1_fixedpath.exe`
+输出文件：`dist/CryoCell_Reminder_v5.0.exe`
 
 ---
 
